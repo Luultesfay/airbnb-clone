@@ -6,9 +6,8 @@ body {
   font-family: "Popping", sans-serif;
 }
 .container {
-  width: 550px;
+  width: 560px;
   height: 853px;
-  background: aqua;
 }
 nav {
   height: 70px;
@@ -51,10 +50,8 @@ p {
 .pic {
   width: 176px;
   height: 235px;
-  background-image: url();
-  background-color: #c6c5c5;
+
   margin-left: 37px;
-  border-radius: 4px;
 }
 h6 {
   font-size: 12px;
@@ -70,6 +67,19 @@ h5 {
   border-radius: 2px;
 }
 .image {
-  width: 176px;
+  width: 166px;
   height: 235px;
+  border-radius: 10px;
+}
+.card {
+  display: inline-block;
+  width: 175px;
+  flex: 0 0 auto;
+  position: relative;
+}
+.card--list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
