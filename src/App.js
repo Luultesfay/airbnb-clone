@@ -9,14 +9,15 @@ console.log(Data);
 const displayData = Data.map((data) => (
   <Cards
     key={data.id}
-    price={data.price}
-    //images/katie-zaferes.png
+    {...data} //the same with the commented out code below
+    // price={data.price}
+    // //images/katie-zaferes.png
     imgs={`images/${data.imgs}`}
-    reviewCount={data.reivewCount}
-    location={data.location}
-    title={data.Title}
-    rating={data.rating}
-    openSpot={data.openSpot}
+    // reviewCount={data.reivewCount}
+    // location={data.location}
+    // title={data.Title}
+    // rating={data.rating}
+    // openSpot={data.openSpot}
   />
 ));
 console.log(displayData);
