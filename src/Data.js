@@ -23,7 +23,7 @@ const Data = [
     id: 3,
     Title: "Group mountain Biking",
     price: 50,
-    imgs: "mountain-bike.png",
+    imgs: "katie-zaferes.png",
     rating: 4.8,
     reivewCount: 2,
     location: "Norway",
@@ -38,16 +38,6 @@ const Data = [
     reivewCount: 2,
     location: "Norway",
     openSpot: 3,
-  },
-  {
-    id: 5,
-    Title: "Group mountain Biking",
-    price: 50,
-    imgs: "mountain-bike.png",
-    rating: 4.8,
-    reivewCount: 2,
-    location: "Norway",
-    openSpot: 0,
   },
 ];
 export default Data;
